@@ -17,7 +17,10 @@ li {
 a {
   text-decoration: none;
 }
-
+.emil {
+  background-color: rgba(240, 52, 52, 1); 
+  color: white;
+}
 /* Ketik code Anda dibawah */
 header {
   height: 65px;
