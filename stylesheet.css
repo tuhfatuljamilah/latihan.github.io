@@ -48,9 +48,8 @@ a {
 /* Untuk Content Tengah */
 .animasi h2 {
   width: 1170px;
-  height: 0px;
-  position: relative;
-  background-image: url(https://i.pinimg.com/originals/25/4b/e5/254be59901b9684aae9f4f5c69ee2fdf.png);
+  height: auto;
+  position: absolute;
   animation-name: example;
   animation-duration: 10s;
   animation-iteration-count: infinite;
@@ -65,13 +64,4 @@ a {
 
 
 /* Untuk Footer*/
-footer {
-  padding-top: 30px;
-}
-footer img {
-  width: 124px;
-}
-footer p {
-  color: #b3aeb5;
-  font-size: 12px;
-}
+
