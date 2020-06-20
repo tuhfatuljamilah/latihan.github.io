@@ -60,8 +60,8 @@ a {
   animation-iteration-count: infinite;
 }
 @keyframes example {
-  0%   {left:0px; top:0px;}
-  50%  {right:0px; top:0px;}
+  0%   {left:10px; top:0px;}
+  50%  {right:10px; top:0px;}
   100% {left:0px; top:0px;}
 }
 ul {
