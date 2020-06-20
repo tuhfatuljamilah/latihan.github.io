@@ -81,9 +81,11 @@ a {
   text-align: center;
 }
 .heading {
-  padding-top: 60px;
-  padding-bottom: 30px;
-  color: #5f5d60;
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  animation-name: example;
+  animation-duration: 4s;
 }
 .heading h2 {
   font-weight: normal;
