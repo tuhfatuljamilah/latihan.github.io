@@ -61,7 +61,7 @@ a {
 }
 @keyframes example {
   0%   {left:0px; top:0px;}
-  50%  {left:200px; top:200px;}
+  50%  {left:200px; top:0px;}
   100% {left:0px; top:0px;}
 }
 ul {
