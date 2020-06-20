@@ -49,6 +49,7 @@ a {
   height: 500px;
   padding-bottom: 80px;
   text-align: center;
+  background-color: #353b48;
 }
 .animasi {
   padding-top: 60px;
@@ -63,8 +64,8 @@ a {
 }
 @keyframes example {
   0%   {left:100px; top:0px;}
-  50%  {right:100px; top:0px;}
-  100% {left:0px; top:0px;}
+  50%  {left:0px; top:0px;}
+  100% {left:100px; top:0px;}
 }
 .content-a {
   float: left;
