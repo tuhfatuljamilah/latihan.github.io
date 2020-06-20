@@ -84,6 +84,11 @@ li {
 .flex-list li {
   flex: auto;
 }
-
+.content-1 p {
+  font-size: 15px;
+  color: red;
+  display: inline-block;
+  margin-top: 20px;
+}
 /* Untuk Footer*/
 
