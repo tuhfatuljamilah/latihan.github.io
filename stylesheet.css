@@ -19,23 +19,25 @@ a {
 }
 
 /* Ketik code Anda dibawah */
+/* Untuk Header */
 
-.container {
+/* Untuk Content atas*/
+.content {
   width: 1170px;
   margin:0 auto;
 }
 
-.top-wrapper h1 {
+.top-content h1 {
   font-size: 45px;
   opacity: 0.7;
   margin-bottom: 10px;
   letter-spacing: 5px;
 }
-.top-wrapper p {
+.top-content p {
   opacity: 0.7;
   margin-bottom: 3px;
 }
-.top-wrapper {
+.top-content {
   padding-top: 180px;
   padding-bottom: 100px;
   color: white;
@@ -43,9 +45,10 @@ a {
   background-size: cover;
   text-align: center;
 }
-/*heading*/
-.heading {
+/* Untuk Content Tengah */
+.animasi h2 {
   width: 1170px;
+  height: 0px;
   position: relative;
   background-image: url(https://i.pinimg.com/originals/25/4b/e5/254be59901b9684aae9f4f5c69ee2fdf.png);
   animation-name: example;
@@ -59,70 +62,9 @@ a {
   75%  {left:0px; top:200px;}
   100% {left:0px; top:0px;}
 }
-.heading h2 {
-  font-weight: normal;
-}
-/*isi*/
-.lesson-wrapper {
-  height: 500px;
-  padding-bottom: 80px;
-  background-color: #f7f7f7;
-  text-align: center;
-}
-.heading {
-  width: 100px;
-  height: 100px;
-  background-color: red;
-  animation-name: example;
-  animation-duration: 4s;
-}
-.heading h2 {
-  font-weight: normal;
-}
-.lesson {
-  float: left;
-  width: 25%;
-}
-.lesson-icon {
-  position: relative;
-}
-.lesson-icon p {
-  position: absolute;
-  top: 90px;
-  width: 100%;
-  color: white;
-}
-.txt-content {
-  width: 80%;
-  font-size: 15px;
-  color: #b3aeb5;
-  display: inline-block;
-  margin-top: 20px;
-}
-.heading h3 {
-  font-weight: normal;
-  color: #5f5d60;
-}
-.heading h2 {
-  font-weight: normal;
-}
-.message-wrapper {
-  text-align: center;
-  padding-bottom: 80px;
-  border-bottom: 1px solid #eee;
-}
-.message {
-  padding: 15px 40px;
-  background-color: #5dca88;
-  cursor: pointer;
-  box-shadow: 0 7px #1a7940;
-  opacity: 0.8;
-}
-.message:active {
-  position: relative;
-  top: 7px;
-  box-shadow: none;
-}
+
+
+/* Untuk Footer*/
 footer {
   padding-top: 30px;
 }
