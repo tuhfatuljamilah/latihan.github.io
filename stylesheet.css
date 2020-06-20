@@ -9,7 +9,9 @@ h1, h2, h3, h4, h5, h6, p, div {
 body {
   font-family: "Lucida Grande";
 }
-
+li {
+  list-style: none
+}
 
 a {
   text-decoration: none;
@@ -60,53 +62,26 @@ a {
   animation-iteration-count: infinite;
 }
 @keyframes example {
-  0%   {left:10px; top:0px;}
-  50%  {right:10px; top:0px;}
+  0%   {left:100px; top:0px;}
+  50%  {right:100px; top:0px;}
   100% {left:0px; top:0px;}
 }
-ul {
-  list-style: none;
-  padding: 60px 0px;
-  text-align: center;
-  margin: 0px;
-}
-li {
-  height: 80px;
-  line-height: 80px;
-}
-.flex-list {
-  display: flex;
-}
-.flex-list li {
-  flex: auto;
-}
-.content-1 p {
-  font-size: 15px;
-  color: red;
-  display: inline-block;
-  margin-top: 20px;
-}
-/* Layout untuk Tablet */
-@media (max-width: 1000px) {
-.flex-list {
-  flex-wrap: wrap;
-}
-.flex-list li {
-width: 50%;
-}
+.content-a {
+  float: left;
+  width: 25%;
 }
 
-/* Layout untuk Smartphone */
-/* Tetapkan lebar breakpoint ke 670px dan di bawahnya ke media query */
-@media (max-width: 670px) {
-  /* Tetapkan flex-direction milik .flex-list */
-.flex-list {
-  flex-direction: column;
+.content-icon {
+  position: relative;
 }
-/* Tetapkan margin dari .flex-list li ke 0 auto */
-.flex-list li {
-  margin: 0 auto;
+
+.content-icon p {
+  position: absolute;
+  top: 90px;
+  width: 100%;
+  color: red;
 }
+
 
 /* Untuk Footer*/
 
