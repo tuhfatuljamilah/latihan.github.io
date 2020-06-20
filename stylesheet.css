@@ -43,21 +43,13 @@ a {
   opacity: 0.7;
   margin-bottom: 3px;
 }
-
-/* Untuk Content Tengah */
-.middle-content {
-  height: 500px;
-  width: 100%;
-  padding-bottom: 80px;
-  text-align: center;
-  background-color: #353b48;
-}
 .animasi {
   padding-top: 60px;
   padding-bottom: 30px;
+  color: white;
 }
 .animasi h2 {
-  width: 100%;
+  width: 1170px;
   position: relative;
   animation-name: example;
   animation-duration: 10s;
@@ -68,9 +60,18 @@ a {
   50%  {left:0px; top:0px;}
   100% {left:100px; top:0px;}
 }
+/* Untuk Content Tengah */
+.middle-content {
+  height: 500px;
+  width: 1170px;
+  padding-bottom: 80px;
+  text-align: center;
+  background-color: #353b48;
+}
+
 .content-a {
   float: left;
-  width: 25%;
+ 
 }
 
 .content-icon {
@@ -78,14 +79,13 @@ a {
 }
 
 .content-icon p {
-  position: absolute;
-  top: 90px;
+  margin-top: 20px;
   width: 100%;
-  color: red;
+  display: inline-block;
+  color: white;
+  font-size: 15px;
 }
-.img {
-  width: 25%;
-}
+
 
 /* Untuk Footer*/
 
