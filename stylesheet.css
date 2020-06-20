@@ -68,6 +68,7 @@ ul {
   list-style: none;
   padding: 60px 0px;
   text-align: center;
+  margin: 0px;
 }
 li {
   height: 80px;
@@ -86,7 +87,7 @@ li {
   margin-top: 20px;
 }
 .img {
-  width: 50%;
+  height: 80px;
 }
 /* Untuk Footer*/
 
