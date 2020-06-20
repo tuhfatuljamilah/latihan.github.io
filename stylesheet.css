@@ -10,9 +10,6 @@ body {
   font-family: "Lucida Grande";
 }
 
-li {
-  list-style: none;
-}
 
 a {
   text-decoration: none;
@@ -46,9 +43,20 @@ a {
   text-align: center;
 }
 /* Untuk Content Tengah */
+.middle-content {
+  height: 500px;
+  padding-bottom: 80px;
+  background-color: #f7f7f7; 
+  text-align: center;
+}
+.animasi {
+  padding-top: 60px;
+  padding-bottom: 30px;
+  background-color: #5f5d60;
+}
 .animasi h2 {
-  width: 1170px;
-  height: auto;
+  width: 100%;
+  margin-top: 100px;
   position: absolute;
   animation-name: example;
   animation-duration: 10s;
@@ -61,7 +69,21 @@ a {
   75%  {left:0px; top:200px;}
   100% {left:0px; top:0px;}
 }
-
+ul {
+  list-style: none;
+  padding: 60px 0px;
+  text-align: center;
+}
+li {
+  height: 80px;
+  line-height: 80px;
+}
+.flex-list {
+  display: flex;
+}
+.flex-list li {
+  flex: auto;
+}
 
 /* Untuk Footer*/
 
